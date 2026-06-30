@@ -186,15 +186,11 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
             <h3 className="font-display text-xl md:text-2xl font-black text-slate-900 mt-2 flex items-center gap-1.5">
               Plan Premium
             </h3>
-            <p className="text-xs text-slate-500">El arsenal pedagógico completo para dominar la atención de los más pequeños.</p>
-
-
 
             <div className="py-4 border-y border-slate-100 space-y-1 text-center">
-              <span className="text-xs text-red-500 font-semibold line-through block">Antes USD 47.00 por:</span>
-              <div className="flex items-baseline justify-center gap-1.5">
+              <span className="text-xs text-red-500 font-semibold line-through block">Antes USD 97.00:</span>
+              <div className="flex items-baseline justify-center">
                 <span className="font-display font-black text-3xl md:text-5xl text-brand-blue">USD 15.00</span>
-                <span className="text-xs text-slate-500 font-bold bg-emerald-50 text-emerald-700 px-2 py-0.5 rounded-md">Pago Único e Ilimitado</span>
               </div>
             </div>
 
