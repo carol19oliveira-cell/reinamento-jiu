@@ -188,17 +188,7 @@ export default function PricingSection({ onSelectPlan }: PricingSectionProps) {
             </h3>
             <p className="text-xs text-slate-500">El arsenal pedagógico completo para dominar la atención de los más pequeños.</p>
 
-            {/* Interactive Bundle Visual Representation */}
-            <div className="py-2.5 flex justify-center">
-              <div className="relative w-full rounded-xl border border-slate-200 flex items-center justify-center overflow-hidden bg-slate-50">
-                <img
-                  src="https://i.ibb.co/twYFCDWV/Chat-GPT-Image-24-de-jun-de-2026-22-33-59-Photoroom.webp"
-                  alt="Plan Premium Mockup"
-                  referrerPolicy="no-referrer"
-                  className="w-full h-auto block transition-transform duration-300 hover:scale-102"
-                />
-              </div>
-            </div>
+
 
             <div className="py-4 border-y border-slate-100 space-y-1 text-center">
               <span className="text-xs text-red-500 font-semibold line-through block">Antes USD 47.00 por:</span>
