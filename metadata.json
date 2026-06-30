@@ -1,0 +1,8 @@
+{
+  "name": "Remix 3: Jiu-Jitsu Interactivo",
+  "description": "Página de ventas con más de 250 dinámicas interactivas de Jiu-Jitsu listas para aplicar en clase.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

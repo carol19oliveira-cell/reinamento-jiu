@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Outfit:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Outfit", "Inter", sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-brand-blue: #0066cc;
+  --color-brand-blue-dark: #003B95;
+  --color-brand-gold: #e59a18;
+  --color-brand-green: #10b981;
+  --color-brand-green-bright: #059669;
+}
+
+@layer utilities {
+  /* Add keyframes or standard utility styling if needed */
+  .animate-pulse-subtle {
+    animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  }
+  
+  @keyframes button-scale-pulse {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.04);
+    }
+  }
+
+  .animate-btn-pulse {
+    animation: button-scale-pulse 2s infinite ease-in-out;
+    display: inline-block;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #fcfcfd;
+  color: #1f2937;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Custom shadow effects for premium look */
+.card-shadow {
+  box-shadow: 0 4px 20px -2px rgba(0, 0, 0, 0.05), 0 2px 8px -1px rgba(0, 0, 0, 0.03);
+}
+
+.glow-shadow {
+  box-shadow: 0 0 25px -5px rgba(59, 130, 246, 0.3), 0 0 15px -5px rgba(59, 130, 246, 0.2);
+}
+
+.glow-green {
+  box-shadow: 0 0 25px -5px rgba(16, 185, 129, 0.4), 0 0 15px -5px rgba(16, 185, 129, 0.2);
+}
+
+/* Phone bezel custom styling */
+.phone-bezel {
+  border: 12px solid #111827;
+  border-radius: 40px;
+}
